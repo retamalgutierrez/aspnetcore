@@ -10,6 +10,7 @@ namespace ASP.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["mensaje"] = "dfdfdfddfdf";
             return View();
         }
 
